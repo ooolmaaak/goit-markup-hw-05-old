@@ -533,6 +533,26 @@ body {
   flex-wrap: wrap;
 }
 
+.portfolio-cover-wrap {
+  position: relative;
+}
+
+.portfolio-cover-content {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  padding-top: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: #404bbf;
+}
+
 .portfolio-link {
   display: block;
 }
