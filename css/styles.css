@@ -83,13 +83,15 @@ body {
   color: #404bbf;
 }
 
-.nav-link.current {
+.current {
   color: #404bbf;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-
-/* .nav-link.current {
-  color: #404bbf;
-} */
 
 .nav-list {
   display: flex;
@@ -110,7 +112,8 @@ body {
 }
 
 .nav-link:hover::after,
-.nav-link:focus::after {
+.nav-link:focus::after,
+.current::after {
   transform: scaleX(1);
 }
 
@@ -655,8 +658,8 @@ img {
   background-color: #fcfcfc;
   border-radius: 4px;
   padding: 30px;
-  box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .backdrop.is-hidden .modal {
